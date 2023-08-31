@@ -2,7 +2,7 @@
   <!-- Remove comments after generation as they are to be used as a guide to help get started-->
   # Into The Tech Verse
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-navy.svg)](https://opensource.org/licenses/Apache-2.0)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   A Tech blog where anyone and everyone can talk about anything regarding technology
