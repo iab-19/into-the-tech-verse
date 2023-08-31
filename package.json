@@ -1,0 +1,31 @@
+{
+  "name": "into-the-tech-verse",
+  "version": "1.0.0",
+  "description": "<!-- Remove comments after generation as they are to be used as a guide to help get started-->   # Into The Tech Verse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iab-19/into-the-tech-verse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iab-19/into-the-tech-verse/issues"
+  },
+  "homepage": "https://github.com/iab-19/into-the-tech-verse#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.3.1",
+    "epress": "^0.0.1-security",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
+  }
+}
