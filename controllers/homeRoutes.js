@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 
         // Serialize data so the template can read it
         const posts = postData.map((post) => post.get({ plain: true}));
-
+        console.log(posts);
         // Pass serialized data and session flag into template
         res.render('homepage', {
             posts,
@@ -51,7 +51,7 @@ router.get('/post/:id', async (req, res) => {
 
 
 // Use withAuth middleware to prevent access to route
-router.get('profile', withAuth, async (req, res) => {
+router.get('/profile', withAuth, async (req, res) => {
     try {
         // Find the logged in user based on the session id
         const userData = await User.findByPk(req.session.user_id, {
